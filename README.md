@@ -1,11 +1,11 @@
-# Updates needed:
+### Updates needed:
 x. How to get necessary files for the project
 x. Remove the Proposal Review Link
 Proposal Review Complete Link: https://review.udacity.com/#!/reviews/2326885
 
-### Udacity Capstone Project
+# Udacity Capstone Project: Quran Reciter Identification (Speech Recognition) using Machine Learning
 ## Machine Learning Nanodegree 2020
-This directory contain all code that was used for the Udacity Machine Learning Engineer Nanodegree Program.
+This directory contain all code that was used for the Udacity Machine Learning Engineer Nanodegree Program's Capstone project.
 
 The following Notebooks were used for this project in this order:
 - 1_Data
