@@ -32,8 +32,9 @@ files for each Aya for each reciter:
 - conda 4.8.3
 
 WINDOWS> "C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe"
-+-----------------------------------------------------------------------------+
-| NVIDIA-SMI 445.87       Driver Version: 445.87       CUDA Version: 11.0     |
+
+        +-----------------------------------------------------------------------------+
+        | NVIDIA-SMI 445.87       Driver Version: 445.87       CUDA Version: 11.0     |
 |-------------------------------+----------------------+----------------------+
 | GPU  Name            TCC/WDDM | Bus-Id        Disp.A | Volatile Uncorr. ECC |
 | Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
