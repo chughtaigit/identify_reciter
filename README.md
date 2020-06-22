@@ -7,15 +7,16 @@ Proposal Review Complete Link: https://review.udacity.com/#!/reviews/2326885
 ## Machine Learning Nanodegree 2020
 This directory contain all code that was used for the Udacity Machine Learning Engineer Nanodegree Program's Capstone project.
 
+### Notebooks
 The following Notebooks were used for this project in this order:
 - 1_Data
 - 2_
 
+### Project write-up
 The project proposal is in proposal.pdf file. 
 The final project write-up is in Capstone_Report_Identify_Reciter_Speech_Recognition.pdf file.
 
-Additionally you will find:
-
+### Data set used
 The dataset for this project can be found here: https://everyayah.com/data/status.php
 Here are the reciters whose data was used and direct links to the ZIP'd MP3 
 files for each Aya for each reciter:
@@ -25,7 +26,7 @@ files for each Aya for each reciter:
 - Fares Abbad 64kbps https://everyayah.com/data/Fares_Abbad_64kbps/000_versebyverse.zip
 - Ghamadi 40kbps https://everyayah.com/data/Ghamadi_40kbps/000_versebyverse.zip
 
-Software used:
+### Software used:
 - Windows 10 OS 
 - Python 3.7.6
 - conda 4.8.3
@@ -55,7 +56,7 @@ Copyright (c) 2005-2019 NVIDIA Corporation
 Built on Sun_Jul_28_19:12:52_Pacific_Daylight_Time_2019
 Cuda compilation tools, release 10.1, V10.1.243
 
-Python Package versions:
+### Python Package versions:
 - librosa==0.7.2
 - audioread==2.1.8
 - pydub==0.24.0
@@ -67,6 +68,7 @@ Python Package versions:
 - tensorflow-gpu==2.2.0
 - tensorflow-gpu-estimator==2.2.0
 - scikit-learn==0.23.0
+
 
 
 
