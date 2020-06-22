@@ -13,13 +13,13 @@ The following Notebooks were used for this project in this order:
 - 2_
 
 ### Project write-up
-The project proposal is in proposal.pdf file. 
-The final project write-up is in Capstone_Report_Identify_Reciter_Speech_Recognition.pdf file.
+- The project proposal is in proposal.pdf file. 
+- The final project write-up is in Capstone_Report_Identify_Reciter_Speech_Recognition.pdf file.
 
 ### Data set used
 The dataset for this project can be found here: https://everyayah.com/data/status.php
-Here are the reciters whose data was used and direct links to the ZIP'd MP3 
-files for each Aya for each reciter:
+
+Here are the reciters whose data was used and direct links to the ZIP'd MP3 files for each Aya for each reciter:
 - Ahmed Ibn Ali Al Ajamy 128kbps https://everyayah.com/data/ahmed_ibn_ali_al_ajamy_128kbps/000_versebyverse.zip
 - Abdurrahmaan As-Sudais 64kbps https://everyayah.com/data/Abdurrahmaan_As-Sudais_64kbps/000_versebyverse.zip
 - Alafasy 64kbps https://everyayah.com/data/Alafasy_64kbps/000_versebyverse.zip
@@ -52,6 +52,7 @@ WINDOWS> "C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe"
         +-----------------------------------------------------------------------------+
 
 WINDOWS> nvcc -V
+
         nvcc: NVIDIA (R) Cuda compiler driver
         Copyright (c) 2005-2019 NVIDIA Corporation
         Built on Sun_Jul_28_19:12:52_Pacific_Daylight_Time_2019
