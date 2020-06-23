@@ -1,23 +1,23 @@
-### Updates needed:
-x. How to get necessary files for the project
-x. Remove the Proposal Review Link
-Proposal Review Complete Link: https://review.udacity.com/#!/reviews/2326885
-
 # Udacity Capstone Project: Quran Reciter Identification (Speech Recognition) using Machine Learning
 ## Machine Learning Nanodegree 2020
 This directory contain all code that was used for the Udacity Machine Learning Engineer Nanodegree Program's Capstone project.
 
 ### Notebooks
 The following Notebooks were used for this project in this order:
-- 1_Data
-- 2_
+- 1_Data_Download: Summarizes the downloaded data & explores data characteristics & visulizations
+- 2_Data_Preparation: This notebook prepares the data for training.
+- 3_Training_Testing: This notebook loads the train/val/test data, trains the NN, and tests it on the test data.
 
 ### Project write-up
 - The project proposal is in proposal.pdf file. 
 - The final project write-up is in Capstone_Report_Identify_Reciter_Speech_Recognition.pdf file.
 
 ### Data set used
-The dataset for this project can be found here: https://everyayah.com/data/status.php
+A snapshot of the processed train/val/test data can be downloaded from here:
+https://1drv.ms/u/s!Arg4zfuZ8qTzihJYZJizybMsDQJ3?e=gO7QRw
+
+It can also be created from scratch using the Notebooks and raw data set below.
+The raw dataset for this project can be downloaded from here: https://everyayah.com/data/status.php
 
 Here are the reciters whose data was used and direct links to the ZIP'd MP3 files for each Aya for each reciter:
 - Ahmed Ibn Ali Al Ajamy 128kbps https://everyayah.com/data/ahmed_ibn_ali_al_ajamy_128kbps/000_versebyverse.zip
@@ -70,7 +70,3 @@ WINDOWS> nvcc -V
 - tensorflow-gpu==2.2.0
 - tensorflow-gpu-estimator==2.2.0
 - scikit-learn==0.23.0
-
-
-
-

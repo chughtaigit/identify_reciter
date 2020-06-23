@@ -22,13 +22,13 @@ from pydub.utils import mediainfo
 ##################
 # Default Constants
 # Directory where MP3 files have been downloaded
-zip_data_dir   = '../../L5_Capstone/Audio/Quran'
+zip_data_dir   = '../DownloadedReciters'
 # Name of ZIP file for each reciter
 zip_file_name  = '000_versebyverse.zip'
 # Directory where processed data & other generated data will be stored
 data_dir       = '../data'
 audio_data_dir = os.path.join(os.getcwd(), data_dir, "audio")
-quran_meta_xml = os.path.join(os.getcwd(), data_dir, "quran-data.xml")
+quran_meta_xml = os.path.join(os.getcwd(), 'Qurandata', "quran-data.xml")
 # Max/Min number of Sura/Aya with first as index 1
 SuraIndexMIN   = 1
 SuraIndexMAX   = 114
@@ -196,13 +196,11 @@ def get_dir_size(start_path = '.'):
 
     return total_size
 
-def report_stats_audio_data(data_dir=audio_data_dir):
+def report_stats_audio_data(data_dir=audio_data_dir, verbose=False):
     """ Reports statitics for the audio data
 
        :param data_dir: Directory containing the audio data
        :type data_dir: str
-       :param zip_file_name: Name of the zip file in the directory
-       :type zip_file_name: str
        :return: DataFrame with audio directory details
        :rtype: DataFrame 
 
@@ -283,7 +281,8 @@ def report_stats_audio_data(data_dir=audio_data_dir):
             #    sr_native = input_file.samplerate
             #    n_channels = input_file.channels
             #print(sr_native, n_channels)
-            #print("{:>30s} {:6.0f} KB {:5s} {:4.0f} {:2d} {:6s} {:13.1f}".format(ff, dd_size_KB, "", bit_rate_kbps, channels, channel_layout, duration))
+            if verbose == True:
+                print("{:>30s} {:6.0f} KB {:5s} {:4.0f} {:2d} {:6s} {:13.1f}".format(ff, dd_size_KB, "", bit_rate_kbps, channels, channel_layout, duration))
 
             # Size
             dd_size_bytes = os.path.getsize(mp3_file)

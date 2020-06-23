@@ -1,2 +1,6 @@
 
 ~$Comparisons.xlsx
+.ipynb_checkpoints/1_Data_Download-checkpoint.ipynb
+.ipynb_checkpoints/2_Data_Preparation-checkpoint.ipynb
+.ipynb_checkpoints/3_Training_Testing-checkpoint.ipynb
+*.h5
